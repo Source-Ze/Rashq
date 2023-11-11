@@ -1,6 +1,7 @@
 #by: @F_E_Y
 #in: 2023/11/11
 #channel: @Se7en_Eyes
+from config import Config 
 import subprocess
 import os
 import re
