@@ -12,13 +12,12 @@ try:
     from telebot.types import InlineKeyboardMarkup as mk
     from telebot.types import KeyboardButton as kb
     from telebot.types import ReplyKeyboardMarkup as rep
-from telebot import telebot
-from telebot.types import InlineKeyboardButton as btn
-from telebot.types import InlineKeyboardMarkup as mk
-from telebot.types import KeyboardButton as kb
-from telebot.types import ReplyKeyboardMarkup as rep
-from kvsqlite.sync import Client
-import requests
+    from telebot.types import InlineKeyboardButton as btn
+    from telebot.types import InlineKeyboardMarkup as mk
+    from telebot.types import KeyboardButton as kb
+    from telebot.types import ReplyKeyboardMarkup as rep
+    from kvsqlite.sync import Client
+    import requests
 
 admin = 6673736816 #your tele ID
 token = Config.TG_BOT_TOKEN #bot token
