@@ -7,7 +7,7 @@ import re
 if not os.path.isdir('data'):
     os.mkdir('data')
 try:
-    from telebot import TeleBot
+    from telebot import telebot
     from telebot.types import InlineKeyboardButton as btn
     from telebot.types import InlineKeyboardMarkup as mk
     from telebot.types import KeyboardButton as kb
