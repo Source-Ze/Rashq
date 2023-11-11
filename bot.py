@@ -12,7 +12,7 @@ try:
     from telebot.types import InlineKeyboardMarkup as mk
     from telebot.types import KeyboardButton as kb
     from telebot.types import ReplyKeyboardMarkup as rep
-from telebot import TeleBot
+from telebot import telebot
 from telebot.types import InlineKeyboardButton as btn
 from telebot.types import InlineKeyboardMarkup as mk
 from telebot.types import KeyboardButton as kb
