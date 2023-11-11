@@ -19,7 +19,7 @@ try:
     from kvsqlite.sync import Client
     import requests
 
-admin = 6673736816 #your tele ID
+admin = "6673736816" #your tele ID
 token = Config.TG_BOT_TOKEN #bot token
 domain = "smmmain.com" #domain site
 api_key = "4fd47e2120255af9f105804e62d19f81" #Your api key from
